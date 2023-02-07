@@ -1,0 +1,25 @@
+.profile{
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+  background-color: #ababab;
+border-radius: 15px;
+}
+
+.avatar{
+  width: 75px;
+  background-color: wheat;
+  border-radius: 50%;
+}
+
+.description{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats{
+  display: flex;
+  gap: 40px;
+}
