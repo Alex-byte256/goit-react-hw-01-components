@@ -1,28 +1,4 @@
-.active{
-  width: 10px;
-  display: block;
-  background-color: green;
-  height: 10px;
-  border-radius: 50%;
-}
 
-.notActive{
-  width: 10px;
-  display: block;
-  background-color: red;
-  height: 10px;
-  border-radius: 50%;
-}
-
-.item{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background-color: wheat;
-  width: 150px;
-  padding: 10px 15px;
-  border-radius: 15px;
-}
 
 .friendList{
   display: flex;

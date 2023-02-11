@@ -1,5 +1,6 @@
 import css from './FriendList.module.css'
 import PropTypes from 'prop-types';
+import FriendListItem from './FriendListItem';
 
 
 
@@ -7,12 +8,7 @@ function FriendList ({ friends }){
   return (
     <ul className={css.friendList}>
       {
-        friends.map(el => <li key={el.id} className={css.item}>
-            <span className={el.isOnline?css.active:css.notActive}></span>
-            <img className={css.avatar} src={el.avatar} alt="User avatar" width="48" />
-            <p className={css.name}>{el.name}</p>
-          </li>
-        )
+        friends.map(el => <FriendListItem key={el.id} name={el.name} avatar={el.avatar} id={el.id} isOnline={el.isOnline}/>)
       }
     </ul>
   )
